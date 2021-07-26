@@ -8,7 +8,7 @@ h1{
 .name-span{
     color: rgb(245, 127, 24);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -39,3 +39,19 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experience-area{
+    background-image: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item{
+    text-align: justify;
+    width: 40%;
+    border: none;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 10px 100px 20px;
+    border-radius: 5%;
+    box-shadow: 1px 10px 50px grey;
+  }
