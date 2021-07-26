@@ -52,6 +52,20 @@ h1{
     margin-left: 5%;
     margin-right: 5%;
     padding: 10px 10px 100px 20px;
-    border-radius: 5%;
     box-shadow: 1px 10px 50px grey;
+  }
+
+  #web-developer-experienced{
+    border-image: linear-gradient(rgb(1, 0, 88),rgb(114, 89, 255));
+    border-image-slice: 1;
+    border-left: 10px solid;
+  }
+  #web-developer-experienced2{
+    border-image: linear-gradient(salmon,rgb(248, 192, 185));
+    border-image-slice: 1;
+    border-left: 10px solid;
+  }
+
+  footer p{
+      text-align: center;
   }
